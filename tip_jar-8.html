@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ART JAKXSON • Support the Music</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at top, #333 0%, #111 45%, #050505 100%);
+    color: white; padding: 24px;
+  }
+  .jar {
+    width: min(440px, 100%); padding: 32px 24px; text-align: center;
+    background: rgba(20,20,20,.94); border: 1px solid #444; border-radius: 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.55);
+  }
+  .icon { font-size: 52px; margin-bottom: 8px; }
+  h1 { margin: 0 0 8px; font-size: 34px; }
+  p { color: #bbb; line-height: 1.5; margin: 0 auto 24px; max-width: 340px; }
+  .buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  button {
+    border: 0; border-radius: 15px; padding: 16px 12px; font-size: 17px; font-weight: 700;
+    cursor: pointer; background: #20c96b; color: #06140c;
+    transition: transform .12s, filter .12s;
+  }
+  button:hover { transform: translateY(-2px); filter: brightness(1.08); }
+  .custom { grid-column: 1 / -1; background: #fff; color: #111; }
+  .note { margin-top: 20px; font-size: 13px; color: #777; }
+</style>
+</head>
+<body>
+  <main class="jar">
+    <div class="icon">💰</div>
+    <h1>ART JAKXSON</h1><h2 style="margin:0 0 8px;font-size:18px;color:#20c96b;">Support the Music</h2>
+    <p>If you enjoy my music or content, leave a tip. Every bit of support helps!</p>
+
+    <div class="buttons">
+      <button onclick="tip(1)">Tip $1</button>
+      <button onclick="tip(5)">Tip $5</button>
+      <button onclick="tip(10)">Tip $10</button>
+      <button onclick="tip(20)">Tip $20</button>
+      <button class="custom" onclick="customTip()">Custom Tip</button>
+    </div>
+
+    <div class="note">Payments are handled through Cash App.</div>
+  </main>
+
+<script>
+  // Replace the value below with your Cash App username.
+  // Example: const cashtag = "YourCashtag";
+  const cashtag = "artjakxson";
+
+  function tip(amount) {
+    if (cashtag === "YOUR_CASHTAG") {
+      alert("Add your Cash App username in the webpage code first.");
+      return;
+    }
+    window.location.href = `https://cash.app/$${cashtag}?amount=${amount}`;
+  }
+
+  function customTip() {
+    if (cashtag === "YOUR_CASHTAG") {
+      alert("Add your Cash App username in the webpage code first.");
+      return;
+    }
+    window.location.href = `https://cash.app/$${cashtag}`;
+  }
+</script>
+</body>
+</html>
