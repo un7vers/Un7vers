@@ -227,7 +227,7 @@
 
     <div class="container">
         <div class="profile-img">$</div>
-        <h1>Support My Work</h1>
+        <h1>creating our own orbit</h1>
         <div class="cashtag">$un7vers</div>
 
         <div class="jar-container">
@@ -236,9 +236,9 @@
         </div>
 
         <div class="preset-grid">
+            <button class="btn-preset" onclick="selectPreset(1, this)">$1</button>
             <button class="btn-preset" onclick="selectPreset(5, this)">$5</button>
             <button class="btn-preset" onclick="selectPreset(10, this)">$10</button>
-            <button class="btn-preset" onclick="selectPreset(25, this)">$25</button>
         </div>
 
         <div class="custom-input-container">
