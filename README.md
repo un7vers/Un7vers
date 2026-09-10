@@ -227,7 +227,7 @@
 
     <div class="container">
         <div class="profile-img">$</div>
-        <h1>creating our own orbit</h1>
+        <h1>The Wishing Well</h1>
         <div class="cashtag">Thad Jacob</div>
 
         <div class="jar-container">
