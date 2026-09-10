@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tip $un7vers</title>
+    <title>Make a wish for the future while giving support to a vision & A Dream</title>
     <style>
         :root {
             --primary: #00D632; /* Cash App Green */
