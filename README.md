@@ -228,7 +228,7 @@
     <div class="container">
         <div class="profile-img">$</div>
         <h1>creating our own orbit</h1>
-        <div class="cashtag">$un7vers</div>
+        <div class="cashtag">Thad Jacob</div>
 
         <div class="jar-container">
             <div id="coin" class="coin" style="display: none;"></div>
