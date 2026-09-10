@@ -246,7 +246,7 @@
             <span>$</span>
         </div>
 
-        <button class="btn-submit" onclick="sendTip()">Send Tip via Cash App</button>
+        <button class="btn-submit" onclick="sendTip()">Send Up Your Wish</button>
     </div>
 
     <script>
